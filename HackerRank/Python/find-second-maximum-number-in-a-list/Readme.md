@@ -59,7 +59,10 @@ Print the runner-up score.
 .MathJax_SVG_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
 </style><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg>
 
-52 3 6 6 5
+```
+5
+2 3 6 6 5
+```
 
 **Sample Output 0**
 
@@ -71,7 +74,9 @@ Print the runner-up score.
 .mjx-svg-href {fill: blue; stroke: blue}
 </style><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg>
 
+```
 5
+```
 
 **Explanation 0**
 
