@@ -1,4 +1,4 @@
-# Returna numeros de 4 digitos onde cada numero seja menor que max_digit e a soma sena igual a 21;
+# Retorna números de 4 dígitos onde cada número seja menor que maxDigit e a soma seja igual a 21;
 def maxDigit(num):
     for i in range(0, (num + 1)):
         for j in range(0, (num + 1)):
