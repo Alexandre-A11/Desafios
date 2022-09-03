@@ -1,5 +1,6 @@
 <?php
-class Solution {
+namespace App\LeetCode\TwoSum;
+class TwoSum {
 
     /*
      * @param Integer[] $nums
@@ -18,15 +19,14 @@ class Solution {
     }
 
     // Solução 2:
-    function twoSum2($nums, $target) {
-        $seen = [];
-        $numberCount = count($nums);
-        for ($i = 0; $i < $numberCount; $i++) {
-            $numberNeeded = $target - $nums[$i];
-            if (isset($seen[$numberNeeded])) {
-                return [$i,$seen[$numberNeeded]];
+    function twoSum2(array $nums, int $target): array {
+        $numArr = [];
+        foreach ($nums as $i => $num) {
+            $needed = $target - $num;
+            if (isset($numArr[$needed])) {
+                return [$i, $numArr[$needed]];
             }
-            $seen[$nums[$i]] = $i;   
+            $numArr[$num] = $i;
         }
         return [];
     }
