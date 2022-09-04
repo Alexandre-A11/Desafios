@@ -1,5 +1,5 @@
 <?php
-namespace App\LeetCode\TwoSum;
+namespace LeetCode\TwoSum;
 class TwoSum {
 
     /*
