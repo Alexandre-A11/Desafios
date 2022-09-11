@@ -35,8 +35,6 @@ class RomanToInteger {
         }
 
         foreach (str_split($s) as $e) {
-            if ($e === "I" || $e === "X" || $e === "C") {
-            }
             $num += $roman[$e];
         }
 
